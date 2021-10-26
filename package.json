@@ -5,8 +5,6 @@
   "name": "tacopage_client",
   "version": "1.0.0",
   "description": "TacoPage - Web page builder",
-  // "engines": {
-  //   "node": ">= 14"
     "engines": {
       "npm": "5.6.0",
       "node": "8.10.0"
