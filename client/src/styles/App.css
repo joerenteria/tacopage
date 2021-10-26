@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  hr{
+    margin-top: 25px;
+    border-top-color: rgb(120, 120, 120);
+    border-top-width: 1px;
+    border-top-style: dashed;
+
+  }
+
+  form{
+      background-color: rgba(0, 0, 0, 0.025);
+      padding: 15px;
+      border-radius: 22px;
+  }
+
+  a
+  {
+   color:rgb(0, 102, 255);
+   text-decoration: none;
+  }
+
+  a:hover
+  {
+    color:rgb(150, 150, 150);
+  }
+
+  img
+{
+ border-radius: 20px;
+ display:block;
+ margin: 25px auto 25px auto;
+ max-width: 90%;
+ object-fit: contain;
+ max-height: 500px;
+}
+
+body{
+    color: rgb(100, 100, 100);
+    background-color: rgb(129, 135, 146);
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+    font-size: 20px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+
+label {
+    display: block;
+    margin: 5px 0 0 10px;
+    font-size: 20px;
+}
+
+.error {
+    color: red;
+}
+
+h1 {
+    color:rgb(50, 50, 50);
+    font-size:30px;
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.75);
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 44px;
+    border-radius: 22px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+    box-sizing: border-box; 
+}
+
+
+
+textarea {
+    box-sizing: border-box; 
+    background-color: rgba(255, 255, 255, 0.75);
+    display: block;
+    color: rgb(100, 100, 100);
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 20px;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+
+
+.tinypage
+{
+
+ display: inline-block;
+ border-style: solid;
+ border-color: rgb(200, 200, 200);
+ border-width: 1px;
+ padding: 10px 15px 10px 15px;
+ margin: 10px;
+ border-radius: 10px;
+ width: 300px;
+
+}
+
+.edittitle
+{
+    margin-top: 5px;
+height: 50px;
+line-height: normal;
+
+}
+
+.imageform
+{
+ width: 200px;
+ border-radius: 10px;
+ margin: 10px;
+}
+
+.content2
+{
+    margin: 0 8% 0 8%;
+}
+
+.page1
+{
+ background-color: rgba(255, 255, 255, 0.95);
+ padding: 50px 5% 50px 5%;
+ margin: 150px 5% 250px 5%;
+ box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+ border-radius: 10px;
+ line-height: 2;
+}
+
+.logo
+{
+    float: left;
+    margin-left: 15px;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    color: darkcyan;
+}
+
+.logofooter
+{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.footer a
+{
+    color:darkcyan;
+}
+
+
+.footer a:hover
+{
+    color:rgb(150, 150, 150);
+}
+
+.navbar
+{
+ background-color: rgba(255, 255, 255, 0.90);
+ position: fixed;
+ top: 0; 
+ width: 100%; 
+ border-width: 0 0 1px 0;
+ border-color: rgb(255, 255, 255);
+ border-style: solid;
+ padding: 0 15px 0 15px;
+ margin: 0;
+ box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navslide
+{
+float: right;
+margin-right: 15px;
+}
+
+
+.jumpmargin{
+    margin-top: 150px;
+    padding: 0;
+   }
+
+   .form2{
+    background-color: black;
+   }
+
+
+.link1
+{
+ margin: 5px 10px 5px 10px;
+ text-decoration: none;
+ font-size: 20px;
+ color:rgb(0, 102, 255);
+
+ padding: 0;
+ border: none;
+ background: none;
+ display: inline-block;
+}
+
+.link1:hover
+{
+ color:rgb(255, 255, 255);
+ text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.credit
+{
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15px;
+    color: rgb(150, 150, 150);
+    height:25px;
+    overflow: hidden;
+    width: 300px;
+
+}
+
+.credit a
+{
+    color:rgb(180, 180, 180);
+
+
+}
+
+.credit a:hover
+{
+    color:rgb(0, 102, 255);
+
+}
+
+.footer
+{
+    text-align: right;
+    font-size: 15px;
+    color: rgb(150, 150, 150);
+
+}
+
+.blue
+{
+    color:rgb(0, 102, 255);
+
+}
+
+.user
+{
+    font-size: 15px;
+    color: rgb(150, 150, 150);
+    padding:  5px 10px 5px 10px;
+
+}

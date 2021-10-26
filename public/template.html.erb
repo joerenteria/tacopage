@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title><%= @title1 %></title>
+<link rel="stylesheet" href="../page.css">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌮 </text></svg>">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#000000" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+<div class="navbar">
+<div class="navslide">
+<a class="link1" href="#"><%= @title1 %></a>
+<a class="link1" href="#tacotaco2"><%= @title2 %></a>
+<a class="link1" href="#tacotaco3"><%= @title3 %></a>
+<a class="link1" href="#contact">Contact us</a>
+</div>
+</div>
+
+
+    <div class="page1">
+        <h1 ><%= @title1 %></h1>
+            <img src="<%= @image1 %>">
+            <div class="credit"><a href="<%= @image1 %>" target="_blank"><%= @image1 %></a></div>
+                <div class="content2">
+                    <%= @content1 %>
+                </div>
+
+                <div id="tacotaco2"></div>
+        <h1 class="jumpmargin"><%= @title2 %></h1>
+            <img src="<%= @image2 %>">
+            <div class="credit"><a href="<%= @image2 %>" target="_blank"><%= @image2 %></a></div>
+                <div class="content2">
+                    <%= @content2 %>
+                </div>
+
+                <div id="tacotaco3"></div>
+        <h1 class="jumpmargin"><%= @title3 %></h1>
+            <img src="<%= @image3 %>">
+            <div class="credit"><a href="<%= @image3 %>" target="_blank"><%= @image3 %></a></div>
+                <div class="content2">
+                    <%= @content3 %>
+                </div>
+
+                <div id="contact"></div>
+        <h1 class="jumpmargin">Contact us</h1>
+                <form class="form1" action="mail.php" method="POST">
+                <label >email</label>
+                <input type="text" name="email">
+                <label >message</label>
+                <textarea name="message" rows="5" ></textarea>
+                <br/>
+                <button class="link1" type="submit" value="Submit">Submit</button>
+                </form>
+<div class="footer">
+                <a target="_blank" href="http://tacopage.com">Built with 🌮 <span class="logofooter">TacoPage</span></a>
+       </div>         
+    </div>
+
+
+
+</body>
+
+</html>

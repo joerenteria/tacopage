@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "react-textarea-autosize": "^8.3.3"
+  },
+  "name": "tacopage_client",
+  "version": "1.0.0",
+  "description": "TacoPage - Web page builder",
+  "engines": {
+    "node": ">= 14"
+  },
+  "scripts": {
+    "clean": "rm -rf public",
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "deploy": "cp -a client/build/. public/",
+    "heroku-postbuild": "npm run clean && npm run build && npm run deploy"
+  },
+  "author": "JoeRenteria"
+}
