@@ -8,8 +8,8 @@
     "engines": {
       "npm": "5.6.0",
       "node": "8.10.0"
-    }
-  },
+    },
+
   "scripts": {
     "clean": "rm -rf public",
     "build": "npm install --prefix client && npm run build --prefix client",
